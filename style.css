@@ -105,6 +105,18 @@ button:hover{
     margin: 0px 160px;
 }
 
+footer{
+    color: #333;
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+    line-height: 30px;
+    margin: 0px 140px;
+}
+
+ul{
+    list-style: none;
+}
 
 
 
