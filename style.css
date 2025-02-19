@@ -111,7 +111,7 @@ footer{
     justify-content: space-around;
     font-size: small;
     line-height: 30px;
-    margin: 0px 140px;
+    margin: 0px 160px;
 }
 
 ul{
@@ -120,8 +120,43 @@ ul{
 
 
 
+@media (max-width:576px){
 
-/* @media (max-width:576px){
-          
+    nav{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 80px;
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 80px;
+    }
+
+    .col{
+        font-size:x-small;
+            position: relative;
+            right: 400px;
+    }
     
-} */
+    .color{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 80px;
+    }
+
+    .color img{
+        width: 300px;
+        height: 500px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
