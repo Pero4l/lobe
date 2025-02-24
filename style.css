@@ -111,11 +111,31 @@ footer{
     justify-content: space-around;
     font-size: small;
     line-height: 30px;
-    margin: 0px 160px;
+    margin: 0px 180px;
 }
 
 ul{
     list-style: none;
+}
+
+.row-2{
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    gap: 10px;
+    
+
+    
+}
+
+.icon{
+    background-color: #02c19b;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 2px;
 }
 
 
